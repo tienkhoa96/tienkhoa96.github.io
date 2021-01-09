@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+
+<body>
+    <style>
+        .flex {
+            display: flex;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+            padding: 10px 20px;
+            color: wheat;
+            background-color: tomato;
+            height: fit-content;
+
+        }
+        .main-menu > li {
+            border-right: 1px solid;
+        }
+        .main-menu > li:last-child{
+            border-right: none;
+        }
+        .cate-menu1 {
+            max-width: max-content;
+        }x`
+        .cate-menu1 > li {
+            width: max-content;
+        }
+        .manu1
+
+
+    </style>
+    <div class="main">
+        <ul class="main-menu flex">
+            <li>menu1</li>
+            <li class="menu1">menu2
+                <ul class="cate-menu1">
+                    <li>cate1</li>
+                    <li>cate2</li>
+                    <li>cate3</li>
+                    <li>cate4</li>
+                </ul>
+            </li>
+            <li>menu3</li>
+            <li>menu4</li>
+        </ul>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
