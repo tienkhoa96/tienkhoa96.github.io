@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .myString{
+            display: none;
+        } */
+    </style>
+</head>
+<body>
+       <div class="myString">khoa</div>
+       <button onclick="batBtn()">bat</button>
+       <button onclick="offBtn()">tat</button>
+
+
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        function batBtn(){
+            document.getElementsByClassName('myString')[0].style.display = 'none'
+    }
+        function offBtn(){
+            document.getElementsByClassName('myString')[0].style.display = 'block'
+        }
+    </script>
+</body>
+</html>

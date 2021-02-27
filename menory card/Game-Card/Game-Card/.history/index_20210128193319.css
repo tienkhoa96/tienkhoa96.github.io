@@ -1,0 +1,46 @@
+.item-card img {
+    width: 200px;
+    height: 135px;
+}
+
+.front {
+    width: 200px;
+}
+
+.back {
+    width: 200px;
+    position: absolute;
+    /* top: 0; */
+}
+
+.item-card {
+    position: relative;
+}
+
+/* quay theo chieu trai */
+@keyframes left_rotate {
+    
+    from {
+        transform: rotateY(0deg);
+    }
+    to {transform: rotateY(180deg);}
+  }
+  
+.rotate-back {
+    animation: left_rotate 1s forwards;
+}
+
+
+/* quay theo chieu phai  */
+
+@keyframes right_rotate {
+    
+    from {
+        transform: rotateY(0deg);
+    }
+    to {transform: rotateY(180deg);}
+  }
+  
+.rotate-front {
+    animation: right_rotate 1s forwards;
+}

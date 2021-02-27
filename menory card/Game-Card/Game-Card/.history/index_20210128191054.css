@@ -1,0 +1,31 @@
+.item-card img {
+    width: 200px;
+    height: 135px;
+}
+
+.font {
+    width: 200px;
+}
+
+.rotate-back {
+    width: 200px;
+    position: absolute;
+    top: 0;
+}
+
+.item-card {
+    position: relative;
+}
+
+/* The animation code */
+@keyframes left_rotate {
+    
+    from {
+        transform: rotateY(0deg);
+    }
+    to {transform: rotateY(180deg);}
+  }
+  
+  .back {
+    animation: left_rotate 1s forwards;
+  }

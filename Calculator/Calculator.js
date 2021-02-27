@@ -21,20 +21,26 @@ function showResult () {
     let result = eval(inputString_show)
     let inputshow = document.getElementById('screen_2')
     inputshow.value = result
-}
-//   xóa 1 ký tự cuối
-function clear(){
-    inputString_show = inputString_show.slice(0,-1)
     
-
 }
+// //   xóa 1 ký tự cuối
+// function clear(){
+//     inputString_show = inputString_value.slice(0,-1)
+     
+//     inputDom.value = inputString_show
+//     console.log('ok')
+// }
 
-// xóa toàn bộ
+// // xóa toàn bộ
 
-function allClear(){
-    inputString_show = '0'
+// function allClear(){
+//     // inputString_show = '0'
+//     inputshow = ''
+    
+//     console.log('ok')
+// }
 
-}
+
 
 
 

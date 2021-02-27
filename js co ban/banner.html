@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <style>
+        div {
+            text-align: center;
+          color: white;
+          font-size: 160px;
+          margin-top: 100px;
+        }
+        #Banner{
+          
+          margin-top: 150px;
+          
+          
+        }
+        .hpny{
+            font-size: 300px;
+            margin-top: 50px;
+            color: rgba(255, 255, 255, 0.719);
+            
+        }
+        span{
+            color: red;
+        }
+        #id3{
+            color: blue;
+
+        }
+        #id2 {
+            color: rgb(255, 0, 106);
+        }
+        #id4{
+            color: blueviolet;
+        }
+        body{
+            
+            background-image: url('https://www.javascripttutorial.net/sample/dom/countdown-timer/img/new-year.jpg');
+        }
+        </style>
+        
+
+</head>
+<body>
+    
+    <div>COUNTDOWN</div>
+
+    <div id="Banner">
+        
+    </div>
+    <div class="hpny">2022</div>
+
+
+    <script>
+         var countDownDate = new Date(2022,0,1).getTime();
+
+
+let a = setInterval(function() {
+
+  
+  var now = new Date().getTime();
+    
+  
+  var dayNumber = countDownDate - now;
+    
+  
+  var days = Math.floor(dayNumber / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((dayNumber % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((dayNumber % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((dayNumber % (1000 * 60)) / 1000);
+    
+  
+  document.getElementById("Banner").innerHTML = `<span id='id1'>${days}</span>days <span id='id2'>${hours}</span>h <span id='id3'>${minutes}</span>m <span id='id4'>${seconds}</span>s`;
+    
+  
+  if (dayNumber < 0) {
+    clearInterval(a);
+    document.getElementById("Banner").innerHTML = "HAPPY NEW YEAR";
+  }
+}, 1000);
+    </script>
+</body>
+</html>

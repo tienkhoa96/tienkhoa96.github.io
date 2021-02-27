@@ -1,0 +1,28 @@
+.item-card img {
+    width: 200px;
+    height: 135px;
+}
+
+.front {
+    width: 200px;
+}
+
+.back {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    transform: rotateY(180deg);
+}
+
+.item-card {
+    position: relative;
+}
+.card__face {
+    backface-visibility: hidden;
+}
+
+.item-card.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  
