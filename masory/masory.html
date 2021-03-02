@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masory</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+</head>
+<body>
+    <style>
+        .grid-item { 
+            width: 200px; 
+        }
+        .grid-item img{
+            width: 100%;
+        }
+        .grid-item--width2 { 
+            width: 400px; 
+        }
+    </style>
+    <div class="grid">
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/12.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/13.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/14.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/15.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/1.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/17.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/18.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/19.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/20.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/2.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/3.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/4.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/5.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/6.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/12.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/13.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/14.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/15.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/1.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/17.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/18.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/19.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/20.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/2.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/3.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/4.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/5.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/6.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/12.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/13.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/14.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/15.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/1.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/17.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/18.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/19.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/20.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/2.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/3.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/4.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/5.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/6.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/12.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/13.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/14.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/15.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/1.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/17.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/18.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/19.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/20.png" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/2.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/3.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/4.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/5.jpg" alt=""></div>
+        <div class="grid-item"><img src="https://tympanus.net/Development/GridLoadingEffects/images/6.jpg" alt=""></div>
+        <!-- <div class="grid-item grid-item--width2">...</div>
+        <div class="grid-item">...</div> -->
+       
+      </div>
+
+      <script>
+          $(document).ready(function(){
+                $('.grid').masonry({
+                    // options
+                    itemSelector: '.grid-item',
+                    columnWidth: 200
+                });
+          })
+      </script>
+
+
+</body>
+</html>
