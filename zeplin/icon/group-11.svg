@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="565" height="36" viewBox="0 0 565 36">
+    <defs>
+        <filter id="68awesgsra">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="jqd0sn2tnb">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="5w37ivrudc">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="za6uqx747d">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="uzt3mcjm4e">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="5befz8yjaf">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="3wuinots4g">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g stroke="#D7D7D7">
+                            <path d="M0.5 0.5H65.5V35.5H0.5z" transform="translate(-360 -2791) translate(360 2726) translate(0 65)"/>
+                        </g>
+                        <g font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400">
+                            <g filter="url(#68awesgsra)" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(16 6)">
+                                <text fill="#000">
+                                    <tspan x=".13" y="16">#바디</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <g stroke="#D7D7D7">
+                            <path d="M0.5 0.5H66.5V35.5H0.5z" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(70)"/>
+                        </g>
+                        <g font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400">
+                            <g filter="url(#jqd0sn2tnb)" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(70) translate(16 6)">
+                                <text fill="#000">
+                                    <tspan x=".161" y="16">#DRY</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <g stroke="#D7D7D7">
+                            <path d="M0.5 0.5H73.5V35.5H0.5z" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(141)"/>
+                        </g>
+                        <g font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400">
+                            <g filter="url(#5w37ivrudc)" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(141) translate(16 6)">
+                                <text fill="#000">
+                                    <tspan x=".119" y="16">#FULL</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <g stroke="#D7D7D7">
+                            <path d="M0.5 0.5H93.5V35.5H0.5z" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(219)"/>
+                        </g>
+                        <g font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400">
+                            <g filter="url(#za6uqx747d)" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(219) translate(16 6)">
+                                <text fill="#000">
+                                    <tspan x=".067" y="16">#CHERRY</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <g stroke="#D7D7D7">
+                            <path d="M0.5 0.5H68.5V35.5H0.5z" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(317)"/>
+                        </g>
+                        <g font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400">
+                            <g filter="url(#uzt3mcjm4e)" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(317) translate(16 6)">
+                                <text fill="#000">
+                                    <tspan x=".237" y="16">#OAK</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <g stroke="#D7D7D7">
+                            <path d="M0.5 0.5H91.5V35.5H0.5z" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(390)"/>
+                        </g>
+                        <g font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400">
+                            <g filter="url(#5befz8yjaf)" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(390) translate(16 6)">
+                                <text fill="#000">
+                                    <tspan x=".25" y="16">#스테이크</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <g stroke="#D7D7D7">
+                            <path d="M0.5 0.5H78.5V35.5H0.5z" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(486)"/>
+                        </g>
+                        <g font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400">
+                            <g filter="url(#3wuinots4g)" transform="translate(-360 -2791) translate(360 2726) translate(0 65) translate(486) translate(16 6)">
+                                <text fill="#000">
+                                    <tspan x=".19" y="16">#초콜릿</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

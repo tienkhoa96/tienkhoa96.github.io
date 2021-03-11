@@ -7,6 +7,10 @@
     <title>Zeplin</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../fontawesome-free-5.15.1-web/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
 </head>
 <body>
         <div class="menu">
@@ -25,15 +29,15 @@
 
         <div class="menu1">
             <div class="top">
-                <div class="logo"></div>
+                <div class="logo"><img src="./img/logo.jpg" alt=""></div>
                 <div class="input">
-                    
-                    <button class="inputbtn"><i class="fas fa-search"></i></button>
+                    <img src="./icon/icons-custom-m-search.svg" alt="" class="search">
+                    <input type="text" class="input-text">
                 </div>
-                <div class="icon iconok"><i class="fas fa-user"></i></div>
-                <div class="icon2 iconok"><i class="far fa-comment-dots"></i></div>
-                <div class="icon3 iconok"><i class="far fa-heart"></i></div>
-                <div class="icon4 iconok"><i class="fas fa-wine-glass-alt"></i></div>
+                <div class="icon iconok"><img src="./icon/icons-custom-m-mypage.svg" alt=""></i></div>
+                <div class="icon2 iconok"><img src="./icon/icons-custom-m-review.svg" alt=""></i></div>
+                <div class="icon3 iconok"><img src="./icon/icons-custom-save.svg" alt=""></i></div>
+                <div class="icon4 iconok"><img src="./icon/icons-custom-wine.svg" alt=""></div>
             </div>
             <div class="bottom">
                 <div class="arrow1 main-menu">
@@ -54,13 +58,494 @@
         </div>
 
         <div class="info">
-            <div class="infomation">dsa</div>
-            <div class="image"><img src="https://thumbs.dreamstime.com/b/realistic-vector-illustration-champagne-glass-blurred-holi-127918788.jpg" alt=""></div>
+            <div class="infomation">
+                <div class="screen">
+                    <div class="info5">
+                        비티스가 추천하는   
+                    </div>
+                    <div class="info1"> 
+                        로제 와인 컬렉션
+                    </div>
+                    <div class="info2">
+                        2021. 6.1(금) - 6.30(일)
+                    </div>
+                    <div class="info3">
+                        우리의 일상 속 특별한 와인 라이프스타일을 제공하기 위한 비티스,
+                        오픈 기념 인기 와인을 지금 할인된 가격으로 만나보세요.
+                    </div>
+                    <div class="info6">
+                        <div class="info61">
+                            <div class="info611">자세히 보기</div>
+                        </div>
+                        <div class="info62">
+                            <div class="info621">컬렉션 구매하기</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="image"><img src="./img/img 3x.jpg" alt=""></div>
+        </div>
+
+
+        <div class="container">
+            <div class="section-1">
+                <div class="title-section">
+                    이달의 베스트 와인
+                </div>
+            </div>
+            <div class="product">
+                <div class="row">
+                    <div class="col-md-3 col-12 ">
+                        <div class="item-product">
+                            <div class="image">
+                                <img src="./img/card-wine-1@3x.jpg" alt="">
+                                <div class="label-sale">
+                                    
+                                </div>
+                                <div class="label-sale-1">
+                                    리미티드 <br> 에디션
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="heart"></div>
+                            <div class="glass"></div>
+                        </div>
+                        <div class="title">샤또 마고 매그넘</div>
+                        <div class="price">
+                            <div class="price-1">259,000원</div>  
+                        </div> 
+                    </div>
+                    <div class="col-md-3 col-12 ">
+                            <div class="item-product1">
+                                <div class="image">
+                                    <img src="./img/card-wine-2@3x.jpg" alt="">
+                                    <div class="label-sale">
+                                    </div>
+                                    <div class="label-sale-1">
+                                        리미티드 <br> 에디션
+                                    </div>
+                                    <div class="sale-1">35% OFF</div>
+                                </div>
+                                <div class="heart"></div>
+                                <div class="glass"></div>
+                            </div>
+                            <div class="title">라미 울지 로드 빈야드 샤르도네</div>
+                            <div class="price">
+                                <div class="oldprice">180,000원</div>
+                                <div class="newprice">168,000원</div> 
+                            </div>  
+                    </div>
+                    <div class="col-md-3 col-12 ">
+                            <div class="item-product2">
+                                <div class="image">
+                                    <img src="./img/card-wine-3@3x.jpg" alt="">
+                                </div>
+                                <div class="heart"></div>
+                                <div class="glass"></div>
+                            </div>
+                            <div class="title">도멘 페로 미노 샹볼 뮈지니 프르미에 크뤼 라 콩브 도르보 울트라 비에유 빈뉴</div>
+                            <div class="price">
+                                <div class="price-1">39,000원</div>
+                            </div>
+                    </div>
+                    <div class="col-md-3 col-12 ">
+                            <div class="item-product3">
+                                <div class="image">
+                                    <img src="./img/card-wine-4@3x.jpg" alt="">
+                                    <div class="sale-1">35% OFF</div>
+                                </div>
+                                <div class="heart"></div>
+                                <div class="glass"></div>
+                            </div>
+                            <div class="title">마르께스 데 까사 콘차 까베르네 소비뇽</div>
+                            <div class="price">
+                                <div class="oldprice">259,000원</div>
+                                <div class="newprice">248,000원</div>
+                            </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
+        <div class="cut"></div>
+        
+        <div class="cont2">
+            <div class="cont2-left">
+                <div class="s2">
+                    <div class="s2-title-section">타임딜 특가</div>
+                </div>
+                <div class="s2-title">오늘 하루만 진행되는 24시간 한정 특가</div>
+            </div>
+            <div class="cont2-right">
+                <div class="cont2-right1">
+                    <img src="./img/img.jpg" alt="">
+                </div>
+                <div class="cont2-right2">라뚜어 다케 와인 선물 세트</div>
+                <div class="cont2-right3">
+                    <div class="cont2-right3-sale">35% OFF</div>
+                    <div class="cont2-right3-oldprice oldprice">180,000원</div>
+                    <div class="cont2-right3-newprice">168,000원</div>
+                </div>
+            </div>
+        </div>
 
+        <div class="container3">
+            <div class="con3-top">
+                <div class="con3-section">이벤트 소식</div>
+                <div class="con3-section-a">이벤트 소식 더보기 <img src="./icon/icons-awesome-arrow-move.svg" alt=""></div>
+            </div>
+            <div class="con3-bottom">
+                <div class="con3-bottom-1">
+                    <div class="con3-bottom-image">
+                        <img src="./img/card-event-1-img-2.jpg" alt="">
+                    </div>
+                    <div class="con3-bottom-title">봄맞이 최대 60% 할인</div>
+                    <div class="con3-bottom-info">VITIS가 추천하는 봄 맞이 와인 추천 이벤트</div>
+                </div>
+                <div class="con3-bottom-2">
+                    <div class="con3-bottom-image">
+                        <img src="./img/card-event-1-img-1.jpg" alt="">
+                    </div>
+                    <div class="con3-bottom-title">오픈기념 친구 추천 이벤트</div>
+                    <div class="con3-bottom-info">친구 추천하고 함께 최대 50% 할인 혜택 누리기</div>
+                </div>
+                <div class="con3-bottom-3">
+                    <div class="con3-bottom-image">
+                        <img src="./img/card-event-1-img-3.jpg" alt="">
+                    </div>
+                    <div class="con3-bottom-title">GRAND OPEN SALE</div>
+                    <div class="con3-bottom-info">VITIS MALL 오픈 기념 이벤트! 최대 50% 할인 혜택 진행중</div>
+                </div>
+            </div>
+        </div>
 
+        <div class="container4">
+            <div class="con4-top">
+                <div class="con4-section"><span class="con4-section-red">김남경</span><span>님을 위한 추천 컬렉션</span> 
+                                          <img src="./icon/icons-filled-action-help-outline-24-px.svg" alt="">                          
+                </div>
+                <div class="con4-section-a">내 와인 컬렉션 보기<img src="./icon/icons-awesome-arrow-move.svg" alt=""></div>
+            </div>
+            <div class="con4-between">
+                <img src="./icon/group-11.svg" alt="">
+            </div>
 
+            <div class="con4-bottom">
+                <div class="product">
+                    <div class="row">
+                        <div class="col-md-3 col-12 ">
+                            <div class="item-product">
+                                <div class="image">
+                                    <img src="./img/card-wine-1@3x.jpg" alt="">
+                                </div>
+                                
+                                <div class="heart"></div>
+                                <div class="glass"></div>
+                            </div>
+                            <div class="title">샤또 마고 매그넘</div>
+                            <div class="price">
+                                <div class="price-1">259,000원</div>  
+                            </div> 
+                        </div>
+                        <div class="col-md-3 col-12 ">
+                                <div class="item-product1">
+                                    <div class="image">
+                                        <img src="./img/card-wine-2@3x.jpg" alt="">
+                                        <div class="sale-1">35% OFF</div>
+                                    </div>
+                                    
+                                    <div class="heart"></div>
+                                    <div class="glass"></div>
+                                </div>
+                                <div class="title">라미 울지 로드 빈야드 샤르도네</div>
+                                <div class="price">
+                                    <div class="oldprice">180,000원</div>
+                                    <div class="newprice">168,000원</div> 
+                                </div>  
+                        </div>
+                        <div class="col-md-3 col-12 ">
+                                <div class="item-product2">
+                                    <div class="image">
+                                        <img src="./img/card-wine-3@3x.jpg" alt="">
+                                    </div>
+                                    <div class="heart"></div>
+                                    <div class="glass"></div>
+                                </div>
+                                <div class="title">도멘 페로 미노 샹볼 뮈지니 프르미에 크뤼 라 콩브 도르보 울트라 비에유 빈뉴</div>
+                                <div class="price">
+                                    <div class="price-1">39,000원</div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-12 ">
+                                <div class="item-product3">
+                                    <div class="image">
+                                        <img src="./img/card-wine-4@3x.jpg" alt="">
+                                        <div class="sale-1">35% OFF</div>
+                                    </div>
+                                    <div class="heart"></div>
+                                    <div class="glass"></div>
+                                </div>
+                                <div class="title">마르께스 데 까사 콘차 까베르네 소비뇽</div>
+                                <div class="price">
+                                    <div class="oldprice">259,000원</div>
+                                    <div class="newprice">248,000원</div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cut4"></div>
+        </div>
+
+        <div class="container5">
+                <div class="cont5-1"><button>나만의 와인 취향 분석하기</button></div>
+                <div class="cont5-2">
+                    <div class="cont5-2-left">MD 추천</div>
+                    <div class="cont5-2-right">레드 와인 더보기
+                        <img src="./icon/icons-awesome-arrow-move.svg" alt="">
+                    </div>
+                </div>
+                <div class="cont5-3">
+                    <ul>선물 세트</ul>
+                    <ul>레드 와인</ul>
+                    <ul>화이트 와인</ul>
+                    <ul>샴페인</ul>
+                    <ul>스파클링 와인</ul>
+                    <ul>로제 와인</ul>
+                    <ul>쇼비뇽 블랑</ul>
+                    <ul>피노 누아</ul>
+                    <ul>샤도네</ul>
+                </div>
+                <div class="con5-4">
+                    <div class="product">
+                        <div class="row">
+                            <div class="col-md-3 col-12 ">
+                                <div class="item-product">
+                                    <div class="image">
+                                        <img src="./img/card-wine-1@3x.jpg" alt="">
+                                    </div>
+                                    <div class="label-sale">리미티드에디션</div>
+                                    <div class="heart"></div>
+                                    <div class="glass"></div>
+                                </div>
+                                <div class="title">샤또 마고 매그넘</div>
+                                <div class="price">
+                                    <div class="price-1">259,000원</div>  
+                                </div> 
+                            </div>
+                            <div class="col-md-3 col-12 ">
+                                    <div class="item-product1">
+                                        <div class="image">
+                                            <img src="./img/card-wine-2@3x.jpg" alt="">
+                                            <div class="sale-1">35% OFF</div>
+                                        </div>
+                                        <div class="label-sale">리미티드에디션</div>
+                                        <div class="heart"></div>
+                                        <div class="glass"></div>
+                                    </div>
+                                    <div class="title">라미 울지 로드 빈야드 샤르도네</div>
+                                    <div class="price">
+                                        <div class="oldprice">180,000원</div>
+                                        <div class="newprice">168,000원</div> 
+                                    </div>  
+                            </div>
+                            <div class="col-md-3 col-12 ">
+                                    <div class="item-product2">
+                                        <div class="image">
+                                            <img src="./img/card-wine-3@3x.jpg" alt="">
+                                        </div>
+                                        <div class="heart"></div>
+                                        <div class="glass"></div>
+                                    </div>
+                                    <div class="title">도멘 페로 미노 샹볼 뮈지니 프르미에 크뤼 라 콩브 도르보 울트라 비에유 빈뉴</div>
+                                    <div class="price">
+                                        <div class="price-1">39,000원</div>
+                                    </div>
+                            </div>
+                            <div class="col-md-3 col-12 ">
+                                    <div class="item-product3">
+                                        <div class="image">
+                                            <img src="./img/card-wine-4@3x.jpg" alt="">
+                                            <div class="sale-1">35% OFF</div>
+                                        </div>
+                                        <div class="heart"></div>
+                                        <div class="glass"></div>
+                                    </div>
+                                    <div class="title">마르께스 데 까사 콘차 까베르네 소비뇽</div>
+                                    <div class="price">
+                                        <div class="oldprice">259,000원</div>
+                                        <div class="newprice">248,000원</div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cut5">
+                    <div class="cont5-cut"></div>
+                </div>
+        </div>
+        <div class="container6">
+            <div class="cont6">
+                <div class="cont6-1">
+                    <div class="cont6-icon">
+                        <img src="./Design icon/icons-custom-event-level.svg" alt="">
+                    </div>
+                    <div class="cont6-title">회원 혜택</div>
+                    <div class="cont6-content">구매할수록 커지는 등급 혜택,
+                        이 달의 혜택을 챙기세요.</div>
+                    <div class="cont6-btn">바로가기</div>
+                </div>
+                <div class="cont6-2">
+                    <div class="cont6-icon">
+                        <img src="./Design icon/icons-custom-event-sale.svg" alt="">
+                    </div>
+                    <div class="cont6-title">회원 혜택</div>
+                    <div class="cont6-content">구매할수록 커지는 등급 혜택,
+                        이 달의 혜택을 챙기세요.</div>
+                    <div class="cont6-btn">바로가기</div>
+                </div>
+                <div class="cont6-3">
+                    <div class="cont6-icon">
+                        <img src="./Design icon/icons-custom-event-coupon.svg" alt="">
+                    </div>
+                    <div class="cont6-title">회원 혜택</div>
+                    <div class="cont6-content">구매할수록 커지는 등급 혜택,
+                        이 달의 혜택을 챙기세요.</div>
+                    <div class="cont6-btn">바로가기</div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container3">
+            <div class="con3-top">
+                <div class="con3-section">비티스 매거진</div>
+                <div class="con3-section-a">매거진 더보기 <img src="./icon/icons-awesome-arrow-move.svg" alt=""></div>
+            </div>
+            <div class="con3-bottom">
+                <div class="con3-bottom-1">
+                    <div class="con3-bottom-image container7">
+                        <img src="https://www.migolatravel.com/wp-content/uploads/2016/06/fairview-wine-estate.jpg" alt="">
+                    </div>
+                    <div class="con3-bottom-title">400년 전 와인은 어떻게 생겼을까?</div>
+                    <div class="con3-bottom-info">Dec 27. 2020. by 이수현</div>
+                </div>
+                <div class="con3-bottom-2">
+                    <div class="con3-bottom-image container7">
+                        <img src="https://bota.vn/wp-content/uploads/2019/01/thau-hieu-upselling.jpg" alt="">
+                    </div>
+                    <div class="con3-bottom-title">누구나 실수할 수 있는 와인 매너</div>
+                    <div class="con3-bottom-info">Dec 27. 2020. by 이수현</div>
+                </div>
+                <div class="con3-bottom-3">
+                    <div class="con3-bottom-image container7">
+                        <img src="https://vcdn1-dulich.vnecdn.net/2015/08/29/shutterstock236226091-1440823092.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=_c4uGKHpXGSHPnIbypa91w" alt="">
+                    </div>
+                    <div class="con3-bottom-title">와인 마시는 즐거움과 괴로움</div>
+                    <div class="con3-bottom-info">Dec 27. 2020. by 이수현</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container8">
+            <div class="cont8-left">
+                <div class="cont8-image">
+                    <img src="./img/group-7@3x.jpg" alt="">
+                </div>
+                <div class="cont8-title">픽업 매장 검색</div>
+                <div class="cont8-content">내 위치와 가장 가까운 VITIS 매장을 찾아서 픽업 서비스를 신청할 수 있습니다.</div> 
+                <div class="cont8-btn">가까운 매장 찾기</div> 
+            </div>
+            <div class="cont8-right">
+                <div class="cont8-image">
+                    <img src="./icon/group-7.svg" alt="">
+                </div>
+                <div class="cont8-title">비티스 소개</div>
+                <div class="cont8-content">비티스는 우리의 일상 속 특별한 와인 라이프스타일을 제공하기 위해 노력합니다.</div> 
+                <div class="cont8-btn">자세히보기</div> 
+            </div>
+        </div>
+        <div class="footer">
+            <div class="border"></div>
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img src="./img/logo.jpg" alt="">
+                </div>
+                <div class="footer-top-right">
+                    <div class="footer-top-right-app">
+                        <img src="./img/instagram.jpg" alt="">
+                    </div>
+                    <div class="footer-top-right-app">
+                        <img src="./icon/facebook.svg" alt="">
+                    </div>
+                    <div class="footer-top-right-app">
+                        <img src="./img/naverblog.jpg" alt="">
+                    </div>
+                    <div class="footer-top-right-download app-store">
+                        <img src="./img/app-store.jpg" alt="">
+                    </div> 
+                    <div class="footer-top-right-download">
+                        <img src="./img/google-play.jpg" alt="">
+                    </div>           
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="footer-body">
+                <div class="footer-body-1">
+                    <div class="footer-body-section colum1">JOIN US!</div>
+                    <div class="footer-body-section colum2">비티스몰 소개</div>
+                    <div class="footer-body-section colum2">나의 주문</div>
+                    <div class="footer-body-section colum2">나의 계정</div>
+                    <div class="footer-body-section colum2">고객센터</div>
+                </div>
+                <div class="footer-body-2">
+                    <div class="footer-body-section footer-title colum1">지금 비티스에 가입하면 10% 쿠폰</div>
+                    <div class="footer-body-title colum2">회사소개</div>
+                    <div class="footer-body-title colum2">주문 조회</div>
+                    <div class="footer-body-title colum2">회원정보수정</div>
+                    <div class="footer-body-title colum2">1:1 문의내역</div>
+                </div>
+                <div class="footer-body-3">
+                    <div class="footer-body-section colum1">회원가입 하기 <img src="./icon/icons-awesome-arrow-move.svg" alt=""></div>
+                    <div class="footer-body-title colum2">이용방법</div>
+                    <div class="footer-body-title colum2">정기구독 관리</div>
+                    <div class="footer-body-title colum2">회원등급</div>
+                    <div class="footer-body-title colum2">상품문의 채팅</div>
+                </div>
+                <div class="footer-body-4">
+                    <div class="footer-body-section zero colum1"></div>
+                    <div class="footer-body-title colum2">이벤트</div>
+                    <div class="footer-body-title colum2">취소/교환/반품 내역</div>
+                    <div class="footer-body-title colum2">쿠폰</div>
+                    <div class="footer-body-title colum2">자주묻는질문</div>
+
+                </div>
+                <div class="footer-body-5 ">
+                    <div class="footer-body-section colum1">대표번호 : 070-4124-4839</div>
+                    <div class="footer-body-title colum2">매거진</div>
+                    <div class="footer-body-title colum2">영수증 발급</div>
+                    <div class="footer-body-title colum2"></div>
+                    <div class="footer-body-title colum2">공지사항</div>
+                </div>      
+            </div>
+            <div class="close">
+                <div class="footer-bottom">
+                    <div class="footer-bottom-left">© 2021 <span class="bold">VITIS</span> All rights reserved</div>
+                    <div class="footer-bottom-right">
+                        <div class="footer-bottom-1">개인정보처리방침</div>
+                        <div class="border-right"></div>
+                        <div class="footer-bottom-2">이용약관</div>
+                        <div class="border-right"></div>
+                        <div class="footer-bottom-2">사업자등록번호 : 121-81-66327</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
  
 
 
