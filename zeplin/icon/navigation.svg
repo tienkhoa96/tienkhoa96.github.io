@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <path id="lvhd1q66wa" d="M32 28.387v1.55H0v-1.55h32zm0-13.193v1.55H0v-1.55h32zM32 2v1.55H0V2h32z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#050000" xlink:href="#lvhd1q66wa"/>
+        </g>
+    </g>
+</svg>

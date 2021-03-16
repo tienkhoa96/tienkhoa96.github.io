@@ -1,0 +1,73 @@
+{
+    "listStudent": [
+        {
+            "id": 1,
+            "name":"Khanh",
+            "age":16,
+            "email":"tienkhanhvn@gmail.com",
+            "description":"Đây là hs 1",
+            "img": ""
+                
+        },
+        {
+            "id": 2,
+            "name":"Khoa",
+            "age":20,
+            "email":"tienkhoa280596@gmail.com",
+            "description":"Đây là hs 1",
+            "img": "https://tienkhoa96.github.io/zeplin/img/app-store.jpg"     
+        },
+        {
+            "id": 3,
+            "name":"Lan",
+            "age":11,
+            "email":"lan12@gmail.com",
+            "description":"Đây là hs 1"        
+        },
+        {
+            "id": 4,
+            "name":"Van",
+            "age":9,
+            "email":"phongvan@gmail.com",
+            "description":"Đây là hs 1"        
+        }
+    ],
+    "listZeplin": [
+        {
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-wine-1@3x.jpg",
+            "label-sale":"리미티드에디션",
+            "sales-off": "",
+            "title":"샤또 마고 매그넘",
+            "price":"259,000원",
+            "old-price": "",
+            "new-price": "" 
+        },
+        {
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-wine-2@3x.jpg",
+            "label-sale":"리미티드에디션",
+            "title":"라미 울지 로드 빈야드 샤르도네",
+            "sales-off": "35% OFF",
+            "price":"259,000원",
+            "old-price": "180,000원",
+            "new-price": "168,000원"       
+        },
+        {
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-wine-3@3x.jpg",
+            "label-sale":"",
+            "sales-off": "",
+            "title":"도멘 페로 미노 샹볼 뮈지니 프르미에 크뤼 라 콩브 도르보 울트라 비에유 빈뉴",
+            "price":"39,000원",
+            "old-price": "",
+            "new-price": ""  
+        },
+        {
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-wine-4@3x.jpg",
+            "label-sale":"",
+            "sales-off": "35% OFF",
+            "title":"마르께스 데 까사 콘차 까베르네 소비뇽",
+            "price":"259,000원",
+            "old-price": "259,000원",
+            "new-price": "248,000원"       
+        }
+    ]
+}

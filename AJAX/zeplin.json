@@ -1,0 +1,59 @@
+{
+    "listZeplin": [
+        {
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-wine-1@3x.jpg",
+            "labelsale":"리미티드에디션",
+            "salesoff": "",
+            "title":"샤또 마고 매그넘",
+            "price":"259,000원",
+            "oldprice": "",
+            "newprice": ""
+        },
+        {
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-wine-2@3x.jpg",
+            "labelsale":"리미티드에디션",
+            "title":"라미 울지 로드 빈야드 샤르도네",
+            "salesoff": "35% OFF",
+            "price":"",
+            "oldprice": "180,000원",
+            "newprice": "168,000원"       
+        },
+        {
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-wine-3@3x.jpg",
+            "labelsale":"",
+            "salesoff": "",
+            "title":"도멘 페로 미노 샹볼 뮈지니 프르미에 크뤼 라 콩브 도르보 울트라 비에유 빈뉴",
+            "price":"39,000원",
+            "oldprice": "",
+            "newprice": ""  
+        },
+        {
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-wine-4@3x.jpg",
+            "labelsale":"",
+            "salesoff": "35% OFF",
+            "title":"마르께스 데 까사 콘차 까베르네 소비뇽",
+            "price":"",
+            "oldprice": "259,000원",
+            "newprice": "248,000원"       
+        }
+    ],
+    "list-moment":[
+        {  
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-magazine-1-img-1.jpg",
+            "section": "400년 전 와인은 어떻게 생겼을까?",
+            "title":"Dec 27. 2020. by 이수현"
+        },
+        {  
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-magazine-2-img-1.jpg",
+            "section": "누구나 실수할 수 있는 와인 매너",
+            "title":"Dec 27. 2020. by 이수현"
+        },
+        {  
+            "img": "https://tienkhoa96.github.io/zeplin/img/card-magazine-3-img-1.jpg",
+            "section": "와인 마시는 즐거움과 괴로움",
+            "title":"Dec 27. 2020. by 이수현"
+        }
+        
+        
+    ]
+}
