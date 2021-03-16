@@ -123,9 +123,8 @@ $(document).ready(function () {
         data.forEach(item => {
             console.log(item.img)
             $('.menu-moment').append(`
-                                    <div class="col-xl-3 item-product ">
-                                        <div class="image">
-                                            <div class="image-item-product">
+                                    <div class="item-product image-moment">
+                                            <div class="image image-wp">
                                                 <img src="${item.img}" alt="">
                                                 <div class="heart">
                                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
@@ -148,9 +147,8 @@ $(document).ready(function () {
                                                     </svg>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="product-section">${item.section}</div>
-                                        <div class="product-title title-item-product">${item.title}</div>
+                                        <div class="product-title moment-title-bold">${item.section}</div>
+                                        <div class="product-title moment-title-nomal">${item.title}</div>
                                         
                                     </div>
                                     `)

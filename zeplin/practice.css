@@ -569,3 +569,211 @@ ul{
     background-color: #92272d;
     color: #ffffff;
 }
+.image-moment{
+    position: relative;
+    width: 390px;
+    margin-bottom: 120px;
+}
+.image-moment img{
+    width: 100%;
+}
+.menu-moment{
+    justify-content: space-between;
+}
+.moment-title-bold{
+    font-weight: 500;
+}
+.moment-title-nomal{
+    color: rgba(0, 0, 0, 0.6);
+}
+.group{
+    margin-bottom: 120px;
+}
+.group img{
+    width: 98%;
+}
+.group-section{
+    height: 32px;
+    font-family: NotoSansCJKkr;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 16px 0 4px 16px;
+}
+.group-title{
+    height: 24px;
+    opacity: 0.8;
+    font-family: NotoSansCJKkr;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    color: #000000;
+    margin: 0 0 24px 16px;
+}
+.group-btn{
+    width: fit-content;
+    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 9px 32px;
+    background-color: #92272d;
+    margin-left: 16px;
+    border-radius: 25px;
+}
+.footer{
+    background-color: #fafafa;
+    margin: 0;
+}
+.border{
+    height: 1px;
+    background-color: #d7d7d7;
+}
+.footer-top{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.footer-top-right{
+    display: flex;
+}
+.footer-top-left img{
+    height: 30px;
+    margin: 4px 0;
+}
+.footer-top-right-app img{
+    height: 22px;
+    margin: 8px 0;
+    margin-right: 16px !important;
+}
+.footer-top-right-download img{
+    height: 38px;
+    margin-left: 8px;
+    
+}
+.app-store img{
+    margin-left: 16px !important;
+}
+.footer-body{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 28px;
+    margin-bottom: 60px;
+}
+.footer-body-1, .footer-body-2,.footer-body-3,.footer-body-4,.footer-body-5{
+    display: flex;
+}
+.colum1{
+    width: 40%;
+}
+.colum2{
+    width: 15%;
+}
+.footer-body-3 img{
+    height: 12px;
+    width: 16px;
+    border-radius: 1px;
+}
+
+.footer-body-section{
+    height: 24px;
+    opacity: 0.8;
+    font-family: NotoSansCJKkr;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.footer-title{
+    font-family: NotoSansCJKkr;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.6);
+}
+.footer-body-title{
+    height: 20px;
+    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 12px;
+}
+.close{
+    background-color: #92272d;
+}
+.footer-bottom{
+    width: 1200px;
+    padding: 24px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-right{
+    display: flex;
+}
+.footer-bottom-left{
+    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.bold{
+    font-weight: bold;
+}
+.footer-bottom-1{
+    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.footer-bottom-2{
+    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.border-right{
+    width: 2px;
+    height: 12px;
+    margin: 4px 20px;
+    background-color: #ffffff;
+
+}
