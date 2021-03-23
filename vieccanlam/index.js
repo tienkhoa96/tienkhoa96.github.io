@@ -13,23 +13,7 @@ function createId() {
     return id;
 }
 
-let todos = [
-    {
-        id: createId(),
-        title: '111',
-        status: true
-    },
-    {
-        id: createId(),
-        title: '2222',
-        status: true
-    },
-    {
-        id: createId(),
-        title: '33333',
-        status: false
-    }
-]
+
 
 //renderUI
 function renderUI(arr) {
@@ -116,7 +100,6 @@ function updateTodo(id) {
     for (let i = 0; i < todos.length; i++) {
         if (todos[i].id == id)
             todo_input.value = todos[i].title
-
     }
     btn_add.innerText = 'cap nhat'
     todo_input.focus()

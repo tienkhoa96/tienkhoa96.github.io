@@ -1,0 +1,24 @@
+{
+  "todoList": [
+    {
+      "id": 1,
+      "title": "Title 1",
+      "status": true
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "status": false
+    },
+    {
+      "title": "ewq",
+      "status": "false",
+      "id": 3
+    },
+    {
+      "title": "ewqeqw",
+      "status": "false",
+      "id": 4
+    }
+  ]
+}
