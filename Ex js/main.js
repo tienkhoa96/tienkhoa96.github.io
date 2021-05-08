@@ -34,21 +34,27 @@ getSecondsToTomorrow()
 
 
 function fomatDate(data){
-    var now = data.now()
-    console.log(now)
+
+    var now = data
     var ago = new Date()
-    var fomatDate = document.getElementsByClassName("fomatDate").innerHTML
+
+    var fomatDate = document.getElementsByClassName("fomatDate")[0]
     if(ago.getSeconds() - now.getSeconds() > 0 && now.getMinutes() == ago.getMinutes()){
-        fomatDate = "Ngay bây giờ"
+        fomatDate.innerHTML = "Ngay bây giờ"
     } else if(ago.getMinutes() - now.getMinutes() > 0 && now.getHours() == ago.getHours()){
-        fomatDate = `${ago.getMinutes() - now.getMinutes()} phút trước`
+        fomatDate.innerHTML = ago.getMinutes() - now.getMinutes()  +" phút trước"
     } else if(ago.getHours() - now.getHours() > 0 && now.getDay() == ago.getDay()){
-        fomatDate = `${ago.getMinutes() - now.getMinutes()} giờ trước`
-    } else {
-        fomatDate = `${now.getFullYear()}:${now.getMonth()}:${now.getDay()} ${now.getHours()}:${now.getMinutes()}`
-    }
+        
+        var hour = ago.getHours()
+        console.log(hour)
+        fomatDate.innerHTML = `${ago.getHours() - now.getHours()} giờ trước`
+        
+    // } else if(ago.getDay() - now.getDay() > 0){
+    //     var a = ago.getDay() - now.getDay() > 0
+    //     console.log(a)
+    //     fomatDate.innerHTML = `${now.getFullYear()}:${now.getMonth()}:${now.getDay()} ${now.getHours()}:${now.getMinutes()}`
+    // }
 
-}
+}}
 
-fomatDate(new Date())
-
+fomatDate(new Date("03/22/2021 19:18:30"))
