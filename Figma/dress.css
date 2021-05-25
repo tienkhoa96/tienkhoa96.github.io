@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+i{
+    display: inline-block;
+    padding-top: 5px;
+    color: #ff8b8b;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* Header */
+.header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+}
+.header-left{
+    display: flex;
+}
+.social-icons{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-right: 30px;
+}
+.menu a:hover{
+    color: #ff8b8b;  
+}
+.logo{
+    width: 150px;
+    margin-right: 30px;
+}
+.logo img{
+    width: 100%;
+}
+.icons-item{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.banner{
+    width: 100%;
+    /* height: 500px; */
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.content-head{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-head{
+    display: flex;
+    justify-content: space-around;
+}
+.box-head-item{
+    width: 30%;
+    text-align: center;
+}
+.box-head-item-image {
+    padding: 20px 100px;
+}
+.box-head-item-image img{
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+}
+.box-head-item-title{
+    margin-top: 10px;
+}
+
+/* END HEADER*/
+
+
+/* CONTENT */
+
+.section{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.content{
+    padding: 0 100px;
+    /* background-color: rgba(136, 136, 136, 0.466); */
+}
+.container{
+    margin-top: 30px;
+}
+.dress-item{
+    padding: 0;
+    box-shadow: 5px 5px 5px #888,
+                -5px -5px 5px #efefef ;
+    transform: scale(0.95);
+    transition: all 0.4s ease-in-out;
+}
+.dress-item:hover{
+    transform: translate(-5px, -5px);
+    box-shadow: 15px 15px 15px #888,
+                -15px -15px 15px #efefef ;
+}
+.item-content{
+    position: relative;
+    padding: 0 20px 20px;
+    z-index: 0;
+    background-color: #fff;
+}
+.item-content::after{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    right: 0;
+    left: 0;    
+    top: -30px;
+    transform: skewY(9deg);
+    z-index: -1;
+}
+
+/* .dress-title{
+    margin-bottom: 10px;
+}
+.item-title{
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.price{
+    display: flex;
+    margin-bottom: 10px;
+}
+.old-price{
+    text-decoration: line-through;
+    margin-right: 10px;
+    opacity: 0.5;
+} */
+
+
+/* FOOTER */
+
+.footer{
+    padding: 50px 0 30px 0;
+    position: relative;
+}
+.footer::before{
+    content: "";
+    height: 1px;
+    background: #f6caca;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+.footer-section{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer-section::after{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background: #f6caca;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+.footer-item{
+    padding-right: 40px;
+}
+
+.footer-title{
+    justify-content: center;
+    position: relative;
+    padding-left: 25px;
+    margin: 20px 0;
+}
+.footer-title i{
+    position: absolute;
+    left: 0;
+}
+.footer-title::after{
+    content: "";
+    height: 1px;
+    background: #f6caca;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+.footer-icon-item{
+    width: 40px;
+    display: inline-block;
+    margin: 30px 20px 30px 0;
+}
+.input{
+    margin-top: 20px;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.input-email{
+    margin-top: 10px;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.btn-login{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    background: #f6caca;
+    display: inline-block;
+}
+#fb-root{
+    padding-top: 20px;
+}
+

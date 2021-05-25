@@ -3,8 +3,86 @@
       { 
         "id": 1, 
         "title": "Album Studio", 
-        "img": "" 
-    }
+        "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/wedding/Studio/home-studio.jpg"
+      },
+      { 
+        "id": 2, 
+        "title": "Album Đà Nẵng", 
+        "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/wedding/%C4%90%C3%A0%20N%E1%BA%B5ng/photo-0-154003010121070021085.jpg"
+      },
+      { 
+        "id": 3, 
+        "title": "Album Hà Nội", 
+        "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/wedding/H%C3%A0%20N%E1%BB%99i/1B4A2313-1.jpg"
+      },
+      { 
+        "id": 4, 
+        "title": "Album phim trường Santory", 
+        "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/wedding/Phim%20truong%20Santory/phim-truong-santorini-37.jpg"
+      },
+      { 
+        "id": 5, 
+        "title": "Album Tam Đảo", 
+        "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/wedding/Tam%20%C4%90%E1%BA%A3o/Tam-%C4%91%E1%BA%A3o-8.jpg"
+      },
+      { 
+        "id": 6, 
+        "title": "Album phim trường Alibaba", 
+        "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/wedding/Phim%20tr%C6%B0%E1%BB%9Dng%20Alibaba/cherry-studio-alibaba-1-23.jpg"
+      }
+    ],
+    "dress": [
+        { 
+          "id": 1, 
+          "title": "Váy cưới công chúa", 
+          "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg",
+          "content": "Là mẫu váy được các nàng dâu săn đón nhiều nhất trong các bảng xếp hạng những xu hướng váy cưới nổi bật mỗi mùa cưới..."
+        },
+        { 
+          "id": 2, 
+          "title": "Váy cưới trễ vai", 
+          "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C6%B0%E1%BB%9Bi%20tr%E1%BB%85%20vai.jpg",
+          "content": "Là vũ khí tối thượng khoe triệt để từ nét đẹp đầy đặn của vòng một đến bờ vai mỏng manh và xương quai xanh quyến rũ chết người..."
+        },
+        { 
+          "id": 3, 
+          "title": "Váy cưới đuôi cá", 
+          "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/Home/Dress/V%C3%A1y%20%C4%91u%C3%B4i%20c%C3%A1.jpg",
+          "content": "Trong những năm trở lại đây váy cưới đuôi cá đang được các bạn gái lựa chọn trong sự kiện quan trọng nhất của cuộc đời mình...."
+        },
+        { 
+          "id": 4, 
+          "title": "Váy cưới dài tay", 
+          "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/Home/Dress/v%C3%A1y%20c%C6%B0%E1%BB%9Bi%20d%C3%A0i%20tay.jpg",
+          "content": "Ưu điểm nổi bật của váy cưới có tay dài là không kén chọn dáng người mặc, dù bạn cao hay thấp, mập hay gầy...."
+        }
+    ],
+    "comment": [
+        { 
+          "id": 1, 
+          "title": "Nguyễn Thúy Quỳnh - Hà Nội", 
+          "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/Home/Comment/39900495_2187804601294710_8118125377903132672_o-684x1024.jpg",
+          "content": "V/c mình rất hài lòng khi đến với Elly. Các bạn makeup và chụp ảnh rất nhiệt tình và chu đáo. V/c mình cảm ơn a Tiên và e Li đã tạo ra những bức ảnh đẹp và tuyệt vời cho v/c mình!"
+        },
+        { 
+          "id": 2, 
+          "title": "Thùy Trinh - Hà Nội", 
+          "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/Home/Comment/anh-chan-dung.jpg",
+          "content": "Trải nghiệm tuyệt vời, nhân viên của ảnh viện cực kỳ dễ thương, nhiệt tình và thân thiện. Bộ ảnh phố cổ vô cùng ấn tượng và đẹp không có gì để chê."
+        },
+        { 
+          "id": 3, 
+          "title": "Mai Anh - Tam Đảo", 
+          "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/Home/Comment/chan%20dung.jpg",
+          "content": "Chất lượng tuyệt vời, phục vụ rất chuyên nghiệp. cảm ơn ảnh viện Elly."
+        },
+        { 
+          "id": 4, 
+          "title": "Hoàng Dung - Đông Anh", 
+          "img": "https://raw.githubusercontent.com/tienkhoa96/tienkhoa96.github.io/master/Figma/Img/Home/Comment/lua-chon-trang-phuc-chup-anh-cuoi-.jpg",
+          "content": "Ảnh cưới của vợ chồng em rất đẹp,rất hài lòng luôn ạ. Cảm ơn team Elly đã giúp vợ chồng em có 1 album đẹp trên cả sự mong đợi."
+        }
+
     ]
-   
-  }
+
+}

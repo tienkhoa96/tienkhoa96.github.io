@@ -13,6 +13,11 @@ img{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+i{
+    display: inline-block;
+    padding-top: 5px;
+    color: #ff8b8b;
+}
 li{
     list-style: none;
 }
@@ -21,15 +26,24 @@ a{
     color: #000000;
     text-transform: uppercase;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
 a:hover{
     color: #000000;
     text-decoration: none;
 }
+
+
+/* Header */
 .header{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    padding: 10px 20px;
 }
 .header-left{
     display: flex;
@@ -37,15 +51,15 @@ a:hover{
 .social-icons{
     display: flex;
 }
-.main-menu{
-    display: flex;
-    align-items: center;
-}
+
 .menu{
     display: flex;
 }
 .menu li{
     margin-right: 30px;
+}
+.menu a:hover{
+    color: #ff8b8b;  
 }
 .logo{
     width: 150px;
@@ -60,7 +74,7 @@ a:hover{
 }
 .banner{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
 }
 .banner img{
     width: 100%;
@@ -90,6 +104,11 @@ a:hover{
 .box-head-item-title{
     margin-top: 10px;
 }
+
+/* END HEADER*/
+
+
+
 .over-view{
     padding: 50px 0;
 }
@@ -115,7 +134,7 @@ a:hover{
     /* padding: 0 100px; */
     border: 1px solid;
     border-radius: 25px;
-    height: 563px;
+    /* height: 563px; */
     background-color: #ffffff;
 }
 .story-image img {
@@ -137,7 +156,7 @@ a:hover{
 .story-content{
     margin-bottom: 10px;
 }
-.story-content li{
+.style-li li{
     list-style-type: circle;
 }
 .style-li{
@@ -175,10 +194,11 @@ a:hover{
 } */
 .album-img img{
     transform: scale(1);
+    transition: all 2s ease-in-out;
 }
-.album-img:hover img{
+.album-item:hover img{
+    opacity: 0.8;
     transform: scale(1.3);
-    transition: 1s;
     border-radius: 25px;
 }
 .album-title{
@@ -196,6 +216,10 @@ a:hover{
     z-index: 1000;
     white-space: nowrap;
 }
+.album-img {
+    border-radius: 25px;
+    overflow: hidden;
+}
 .album-item:hover .album-title{
     background: #f6cfcac9;
     transition: 0.3s;
@@ -204,9 +228,7 @@ a:hover{
     text-align: center;
     padding: 50px 0 30px 0;
 }
-.menu a:hover{
-    color: #f6cfca;  
-}
+
 .btn-more{
     padding: 10px 40px;
     border: 1px solid #000000;
@@ -216,11 +238,14 @@ a:hover{
     font-weight: 700;
     transition: 0.3s;
     margin-top: 20px;
+    opacity: 0.4;
 }
 .btn-more:hover a{
     color: #ffffff;
+    opacity: 1;
 }
 .btn-more:hover{
+    opacity: 1;
     background: #f6caca;
     border: 1px solid #f6caca;
 }
@@ -241,6 +266,7 @@ a:hover{
     bottom: -82px;
     left: 15px;
     right: 15px;
+    transition: all 1s ease-in-out;
 }
 .dress-item-content{
     text-align: justify;
@@ -248,11 +274,16 @@ a:hover{
 }
 .dress-item:hover .dress-item-title{
     bottom: 0;
-    transition: 0.5s;
 }
+
+.dress-item:hover img {
+    opacity: 0.7;
+}
+
+
+/* COMMENT */
 .comment-item{
     text-align: center;
-    /* margin: 30px; */
     padding: 20px 20px;
 }
 .comment-image img{
@@ -260,7 +291,6 @@ a:hover{
     border-radius: 100px;
 }
 .title{
-    /* font-size: 18px; */
     font-weight: 600;
 }
 .comment-content{
@@ -273,6 +303,8 @@ a:hover{
 .comment{
     padding: 50px 0 50px 0;
 }
+/* END COMMENT */
+
 /* NEW */
 .card-title{
     font-size: 14px;
@@ -303,6 +335,18 @@ a:hover{
 /* FOOTER */
 .footer{
     padding: 50px 0 30px 0;
+    position: relative;
+}
+
+/* hover*/
+.footer::before{
+    content: "";
+    height: 1px;
+    background: #f6caca;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
 }
 .footer-section{
     text-transform: uppercase;
@@ -324,6 +368,7 @@ a:hover{
 .footer-item{
     padding-right: 40px;
 }
+
 .footer-title{
     justify-content: center;
     position: relative;
@@ -331,9 +376,6 @@ a:hover{
     margin: 20px 0;
 }
 .footer-title i{
-    display: inline-block;
-    padding-top: 5px;
-    color: #d29365;
     position: absolute;
     left: 0;
 }
@@ -374,12 +416,4 @@ a:hover{
     padding-top: 20px;
 }
 
-/* .album-img {}.album-img {
-    border-radius: 25px;
-    overflow: hidden;
-}
-
-.col-md-3.dress-item:hover {
-    opacity: 0.8;
-} */
 
