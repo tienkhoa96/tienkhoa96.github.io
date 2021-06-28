@@ -1,0 +1,22 @@
+npm install -g create-react-app
+
+create-react-app my-app
+
+npm install react-router-dom
+
+
+npm install @material-ui/core
+
+
+npm config set prefix /usr/local
+
+Windows Start
+Search for "Windows Powershell"
+Right click Windows Powershell
+Click Run as Administrator (Grant in "User Account Control" if shows up)
+Type set-executionpolicy remotesigned
+Select/Type yes [Y]
+
+
+
+https://reactjs.org/docs/typechecking-with-proptypes.html

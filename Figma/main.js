@@ -23,12 +23,15 @@ $(document).ready(function () {
             data.forEach(item => {
                 album.append(
                     `   
+                    <a href="file:///C:/Users/PC/Documents/GitHub/tienkhoa96.github.io/Figma/album-detail.html?id=${item.id}">
                         <div class="col-md-4 album-item">
-                            <div class="album-img">
-                                <img src="${item.img}" alt="">
-                            </div>
-                            <div class="album-title">${item.title}</div>
+                                <div class="album-img">
+                                    <img src="${item.img}" alt="">
+                                </div>
+                                <div class="album-title">${item.title}</div>
                         </div>
+                    </a>
+                        
                     `
                 )
             });
