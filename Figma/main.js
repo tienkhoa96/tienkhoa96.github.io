@@ -38,8 +38,7 @@ $(document).ready(function () {
 
         }
       });
-
-
+      
       $.get( "http://localhost:3000/dress", function( data ) {
         //lay data xong thi xem co thanh cong ko
         // khong thanh cong thi dung code lai
@@ -70,3 +69,14 @@ $(document).ready(function () {
 
 
 });
+
+function sayHi() {
+    let a=1
+    
+    console.log(a)
+    return (() => 0)();
+  }
+  
+  
+  
+  
