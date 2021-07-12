@@ -132,7 +132,7 @@ a:hover{
     transition: all 0.4s ease-in-out;
 }
 .dress-item:hover{
-    transform: translate(0, 0);
+    /* transform: translate(0, 0); */
     transform: scale(0.95);
     /* box-shadow: 15px 15px 15px #888,
                 -15px -15px 15px #efefef ; */
