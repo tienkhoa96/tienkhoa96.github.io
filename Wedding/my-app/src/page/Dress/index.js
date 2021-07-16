@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
         margin: "20px 0"
     },
     section: {
+        paddingTop: "30px",
         fontSize:"24px",
         textTransform:"uppercase",
         textAlign:"center",
@@ -33,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     title: {
+        // padding: "20px 0",
         "@media (min-width: 1280px)": {
             width: "70%",
             margin: "0 auto"
@@ -94,7 +96,7 @@ const useStyles = makeStyles((theme) => ({
     },
     boxTitle: {
         position:"relative",
-        padding:"0 20px 20px",
+        padding:"20px 20px",
         zIndex: "0",
         backgroundColor:"#fff"
     },
@@ -134,7 +136,13 @@ const Dress = () => {
             id: "vay-cuoi-tre-vai2"
         },
         {
-            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
+            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/V%C3%A1y%20c%C6%B0%E1%BB%9Bi/V%C3%A1y%20c%C6%B0%E1%BB%9Bi%20%C4%91u%C3%B4i%20d%C3%A0i/01.jpg?raw=true",
+            title: 'Váy cưới đuôi dài',
+            link: '/dress-detail',
+            id: "vay-cuoi-duoi-dai"
+        },
+        {
+            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/V%C3%A1y%20c%C6%B0%E1%BB%9Bi/V%C3%A1y%20c%C6%B0%E1%BB%9Bi%20%C4%91u%C3%B4i%20d%C3%A0i/01.jpg?raw=true",
             title: 'Váy cưới đuôi dài',
             link: '/dress-detail',
             id: "vay-cuoi-duoi-dai"
@@ -144,7 +152,6 @@ const Dress = () => {
     return (
         <>
             <Header/>
-            <h1 className={classes.sectionTitle}>Vay cuoi</h1>
             <div className={classes.content}>
                 <div className={classes.section}>Váy cưới Luxury </div>
                 <div className={classes.title}>VÁY CƯỚI LUXURY là dòng váy cưới cao cấp của Tony Bridal nhằm mang đến những váy cưới thiết kế đẹp hơn dựa trên nền chất liệu nhập ngoại nhưng vẫn theo phong cách tối giản chủ đạo tinh tế và thanh lịch. Những mẫu váy cưới của Tony Bridal bằng các chất liệu phi co giãn 4 chiều, ren nhập ngoại cùng với các chất liệu hỗ trợ nhằm thêm sự nhẹ nhàng và thoải mái cho cô dâu. Bên cạnh đó, dòng váy cưới dáng sẽ được điểm tô đặc sắc hơn với cườm Nhật, pha lê lấp lánh… Tony Bridal vẫn luôn mong muốn mang đến những trải nghiệm hài lòng về dịch vụ may áo cưới từ sự tận tâm vànhiệt tình của cả đội ngũ từ thiết kế, chuyên viên tư vấn đến thợ cắt ráp.</div>
@@ -152,19 +159,22 @@ const Dress = () => {
                 <Grid containe className={classes.wrapItem}>
                         {
                             ListDress.length && ListDress.map((item, index) => {
-                                return (
-                                    <Grid item xs={12} sm={6} md={4} lg={3} className={classes.boxItem}>
-                                        <div className={classes.boxImg}>
-                                            <img src={item.img}/>
-                                        </div>
-                                        <div className={classes.boxTitle}>
-                                            <div className={classes.itemTitle}> {item.title}</div>
-                                                <div className={classes.itemPrice}>
-                                                    {item.price}
-                                                </div>
-                                                <div className={classes.itemDetail}> Xem chi tiet</div>
-                                        </div>
+                                return (<>
+                                    <Grid item xs={12} sm={6} md={4} lg={4} className={classes.boxItem}>
+                                        <Link to={`/dress-detail/${item.id}`}>
+                                            <div className={classes.boxImg}>
+                                                <img src={item.img}/>
+                                            </div>
+                                            <div className={classes.boxTitle}>
+                                                <div className={classes.itemTitle}> {item.title}</div>
+                                                    <div className={classes.itemPrice}>
+                                                        {item.price}
+                                                    </div>
+                                                    <div className={classes.itemDetail}> Xem chi tiet</div>
+                                            </div>
+                                        </Link>
                                     </Grid>
+                                    </>
                                 )
                             })
                         }

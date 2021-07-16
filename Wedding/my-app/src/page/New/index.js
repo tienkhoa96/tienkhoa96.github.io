@@ -83,31 +83,31 @@ export default function New() {
 
   const ItemNew = [
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
       title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
     },
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
       title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
     },
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
       title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
     },
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
       title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
     },
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
       title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
@@ -116,27 +116,27 @@ export default function New() {
 
   const SubItem = [
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "/ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
     },
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "/ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
     },
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "/ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
     },
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "/ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
     },
     {
-      link: "/ki-truoc-online-bung-no-uu-dai",
+      id: "/ki-truoc-online-bung-no-uu-dai",
       img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
     },
@@ -149,7 +149,7 @@ export default function New() {
               ItemNew.length && ItemNew.map((item, index) => {
                 return (
                     <Grid item xs={12} className={classes.inner}>
-                      <Link to={`/album-detail/${item.link}`}>
+                      <Link to={`/new-detail/${item.id}`}>
                         <div className={classes.flexItem}>
                           <div className={classes.boxImg}>
                             <img src={item.img}/>
@@ -176,7 +176,7 @@ export default function New() {
               SubItem.length && SubItem.map((item, index) => {
                 return (<>
                     <Grid item xs={12} className={classes.subInner}>
-                      <Link to={`/album-detail/${item.link}`}>
+                      <Link to={`/new-detail/${item.id}`}>
                         <div className={classes.flexSubItem}>
                           <div className={classes.boxSubImg}>
                             <img src={item.img}/>

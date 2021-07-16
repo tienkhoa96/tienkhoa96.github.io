@@ -11,6 +11,7 @@ import ProductPrice from './page/ProductPrice';
 import CenteredGrid from './page/New';
 import AlbumDetail from './page/AlbumDetail';
 import DressDetail from './page/DressDetail';
+import NewDetail from './page/NewDetail';
 
 function App() {
 
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/dress-detail">
             <DressDetail />
+          </Route>
+          <Route path="/new-detail">
+            <NewDetail />
           </Route>
         </Switch>
     </Router>
