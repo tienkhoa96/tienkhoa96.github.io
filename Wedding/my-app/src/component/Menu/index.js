@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) => ({
             paddingLeft:"20px",
             marginLeft:"20px",
             fontFamily:"\"Merriweather\",serif !important",
-            letterSpacing:"1.5px",
-            fontSize:"16px",
+            letterSpacing:"0.5px",
+            fontSize:"18px",
             fontWeight:"600",
             borderLeft:"2px solid #000000",
             // '&:first-child': {

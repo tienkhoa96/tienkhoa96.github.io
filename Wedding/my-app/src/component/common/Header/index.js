@@ -11,7 +11,8 @@ const useStyles = makeStyles((theme) => ({
         justifyContent:"space-between",
         alignItems:"center",
         textAlign:"center",
-        padding:"10px 20px"
+        padding:"10px 20px",
+        boxShadow: "0 .125rem .25rem rgba(0,0,0,.055)!important"
     },
     barIcon : {
         color : '#00000a1',
@@ -43,7 +44,7 @@ const Header = ({activeMenu}) => {
             
         },
         {
-            label: 'Váy cưới',
+            label: 'Váy cưới LUXURY',
             link: '/vay-cuoi'
             
         },

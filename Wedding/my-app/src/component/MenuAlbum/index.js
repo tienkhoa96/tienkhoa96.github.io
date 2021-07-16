@@ -5,6 +5,8 @@ import {
   Link
 } from "react-router-dom";
 import Grid from '@material-ui/core/Grid';
+// import { saveToLocal } from '../../utils';
+// import { useHistory } from "react-router-dom"
 
 const useStyles = makeStyles((theme) => ({
     wrapMenuDetail: {
@@ -37,7 +39,6 @@ const useStyles = makeStyles((theme) => ({
     },
     boxTitle: {
         fontSize:"18px",
-        fontFamily:"'googlesan'",
         margin:"0",
         paddingTop:"15px",
         fontWeight:"100",
@@ -50,23 +51,32 @@ const useStyles = makeStyles((theme) => ({
   }));
 
 
-const MenuDetail = ({dataList}) => {
-    
+const MenuAlbum = ({dataList}) => {
+
+    // let history = useHistory();
+
     const classes = useStyles();
 
+    // const handClick = (item) => {
+    //     saveToLocal("detail-album", item)
+    //     history.push("/album-detail")
+    // }
+
     
-    const renderMenuDetail = () => {
+    const renderMenuAlbum = () => {
         return  (<>
                         {
                             dataList.length && dataList.map((item, index) => {
                                 return (
                                     <Grid item xs={12} sm={6} md={4} lg={3} className={classes.boxItem}>
-                                        <Link to={`${item.link? item.link : ''}`}>
+                                        {/* <div onClick={() => handClick(item)}> */}
+                                        <Link to={`/album-detail/${item.id}`}>
                                             <div className={classes.boxImg}>
                                                 <img src={item.img}/>
                                             </div>
                                             <div className={classes.boxTitle}>{item.title}</div>
                                         </Link>
+                                        {/* </div> */}
                                     </Grid>
                                 )
                             })
@@ -76,23 +86,23 @@ const MenuDetail = ({dataList}) => {
     }
 
 
-    return ( <><div className={classes.section}>Album chup anh cuoi ba vi</div>
+    return ( <><div className={classes.section}>Album</div>
                 <Grid container spacing={3} className={classes.wrapMenuDetail}>
                     {
-                        renderMenuDetail()
+                        renderMenuAlbum()
                     }
                 </Grid>
             </>
     )
 }
 
-MenuDetail.defaultProps = {
+MenuAlbum.defaultProps = {
     dataList: []
 }
 
-MenuDetail.propTypes = {
+MenuAlbum.propTypes = {
     dataList: PropTypes.array.isRequired,
 }
 
 
-export default MenuDetail
+export default MenuAlbum

@@ -63,7 +63,6 @@ const useStyles = makeStyles((theme) => ({
         fontSize:"16px",
         textAlign:"justify",
         marginBottom:"15px",
-        fontFamily:"'googlesan'",
         paddingRight:"10px"
     },
     center: {

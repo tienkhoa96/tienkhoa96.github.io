@@ -9,7 +9,8 @@ import Album from './page/Album';
 import Dress from './page/Dress';
 import ProductPrice from './page/ProductPrice';
 import CenteredGrid from './page/New';
-
+import AlbumDetail from './page/AlbumDetail';
+import DressDetail from './page/DressDetail';
 
 function App() {
 
@@ -30,6 +31,12 @@ function App() {
           </Route>
           <Route path="/tin-tuc">
             <CenteredGrid />
+          </Route>
+          <Route path="/album-detail">
+            <AlbumDetail />
+          </Route>
+          <Route path="/dress-detail">
+            <DressDetail />
           </Route>
         </Switch>
     </Router>

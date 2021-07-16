@@ -12,12 +12,10 @@ const useStyles = makeStyles((theme) => ({
     headerTitle: {
         border:"1px solid #f2e0b1",
         display:"inline-block",
-        padding:"5px 130px",
         fontSize:"30px",
-        fontFamily:"googlesan",
         position:"relative",
         background:"#fff",
-        marginTop:"130px",
+        marginTop:"200px",
         color:"rgb(242, 151, 144)",
         fontWeight:"bold",
         "&:before":{
@@ -33,6 +31,12 @@ const useStyles = makeStyles((theme) => ({
             top:"-15px",
             transform: "rotate(185deg)"
         },
+        "@media (min-width: 600px)": {
+            padding:"5px 130px",
+        },
+        "@media (max-width: 600px)": {
+            padding:"5px 50px",
+        }
     },
     boxHeader: {
         textAlign: "center"
@@ -69,13 +73,13 @@ const useStyles = makeStyles((theme) => ({
         width:"260px"
     },
     contentBox: {
-        border:"1px solid #cccccc",
+        border:"1px solid #00000024",
         // borderRadius:"20px",
         borderTopRightRadius:"20px",
         borderTopLeftRadius:"20px",
         textAlign: "center",
         background: "#fff",
-        border: "unset",
+        // border: "unset",
     },
     title: {
         fontSize:"40px",
@@ -86,14 +90,12 @@ const useStyles = makeStyles((theme) => ({
         paddingRight:"15px"
     },
     description: {
-        fontFamily:"googlesan",
         fontSize:"18px",
         fontWeight:"bold",
         padding:"0 15px",
         height: "30px"
     },
     price: {
-        fontFamily:"googlesan",
         fontWeight:"bold",
         fontSize:"18px",
         color:"#ea3038",
@@ -116,16 +118,17 @@ const useStyles = makeStyles((theme) => ({
         padding: "0 15px"
     },
     boxItem: {
-        padding: "0 15px",
-        width: "33%",
+        padding: "0 20px",
         textAlign: "center",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between"
+        // display: "flex",
+        // flexDirection: "column",
+        // justifyContent: "space-between"
     },
     container: {
-        width: "1270px",
-        margin: "0 auto",
+        "@media (min-width: 600px)": {
+            width: "90vw",
+            margin: "0 auto",
+        },
         display: "flex",
         justifyContent: "center"
     },
@@ -238,12 +241,12 @@ const ShowProductPrice = ({dataList}) => {
             <>
                 {
                     dataList.length && dataList.map((item, index) => {
-                        return (<Grid container spacing={3} className={ `${index % 2 === 1 ? classes.group : ""}`}>
+                        return (<Grid container className={ `${index % 2 === 1 ? classes.group : ""}`}>
                                     <Grid item xs={12} className={classes.groupDaisy}>
                                         <div className={classes.boxHeader}>
                                             <div className={classes.headerTitle}>{item.header}</div>
                                         </div>
-                                        <Grid container spacing={3} className={classes.container}>
+                                        <Grid container item className={classes.container}>
                                             {
                                                 item.data && item.data.length && <>
                                                     {

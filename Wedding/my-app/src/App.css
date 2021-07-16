@@ -10,7 +10,7 @@ a {
   pointer-events: none;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
