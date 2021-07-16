@@ -110,49 +110,34 @@ const Dress = () => {
     
     const ListDress = [
         {
-            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
+            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/V%C3%A1y%20c%C6%B0%E1%BB%9Bi/V%C3%A1y%20c%C6%B0%E1%BB%9Bi%20c%C3%B4ng%20ch%C3%BAa/01.jpg?raw=true",
             title: 'Váy cưới công chúa',
-            price: 800.000,
+            link: '/dress-detail',
+            id: "vay-cuoi-cong-chua"
+        },
+        {
+            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/V%C3%A1y%20c%C6%B0%E1%BB%9Bi/V%C3%A1y%20c%C6%B0%E1%BB%9Bi%20tr%E1%BA%BF%20vai/01.jpg?raw=true",
+            title: 'Váy cưới trễ vai',
+            link: '/dress-detail',
+            id: "vay-cuoi-tre-vai"
+        },
+        {
+            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/V%C3%A1y%20c%C6%B0%E1%BB%9Bi/V%C3%A1y%20c%C6%B0%E1%BB%9Bi%20d%C3%A0i%20tay/01.jpg?raw=true",
+            title: 'Váy cưới dài tay',
+            link: '/dress-detail',
+            id: "vay-cuoi-dai-tay"
+        },
+        {
+            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/V%C3%A1y%20c%C6%B0%E1%BB%9Bi/V%C3%A1y%20c%C6%B0%E1%BB%9Bi%20tr%E1%BB%85%20vai%202/01.jpg?raw=true",
+            title: 'Váy cưới trễ vai',
+            link: '/dress-detail',
+            id: "vay-cuoi-tre-vai2"
         },
         {
             img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
-            title: 'Váy cưới công chúa',
-            price: 800.000,
-        },
-        {
-            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
-            title: 'Váy cưới công chúa',
-            price: 800.000,
-        },
-        {
-            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
-            title: 'Váy cưới công chúa',
-            price: 800.000,
-        },
-        {
-            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
-            title: 'Váy cưới công chúa',
-            price: 800.000,
-        },
-        {
-            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
-            title: 'Váy cưới công chúa',
-            price: 800.000,
-        },
-        {
-            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
-            title: 'Váy cưới công chúa',
-            price: 800.000,
-        },
-        {
-            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
-            title: 'Váy cưới công chúa',
-            price: 800.000,
-        },
-        {
-            img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/Home/Dress/V%C3%A1y%20c%C3%B4ng%20ch%C3%BAa.jpg?raw=true",
-            title: 'Váy cưới công chúa',
-            price: 800.000,
+            title: 'Váy cưới đuôi dài',
+            link: '/dress-detail',
+            id: "vay-cuoi-duoi-dai"
         },
     ]
 
