@@ -84,32 +84,32 @@ export default function New() {
   const ItemNew = [
     {
       id: "ki-truoc-online-bung-no-uu-dai",
-      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
+      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/New/bungnouudai.jpg?raw=true",
       des: "Kí trước online - Bùng nổ ưu đãi",
       title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
     },
     {
-      id: "ki-truoc-online-bung-no-uu-dai",
-      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
-      des: "Kí trước online - Bùng nổ ưu đãi",
+      id: "uu-dai-mua-cuoi",
+      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/New/4-2-1.jpg?raw=true",
+      des: "Ưu đãi tưng bừng mùa cưới 2020",
+      title: "Ưu đãi lớn cuối cùng năm 2021, ELLY studio không giảm giá mà tặng hẳn [...]"
+    },
+    {
+      id: "chup-hinh-cuoi-chuan-bi-gi",
+      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/New/chup-hinh-cuoi-chuan-bi-gi.jpg?raw=true",
+      des: "Chụp hình cưới cần chuẩn bị gì",
       title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
     },
     {
-      id: "ki-truoc-online-bung-no-uu-dai",
-      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
-      des: "Kí trước online - Bùng nổ ưu đãi",
+      id: "ngay-tot-to-chuc-dam-cuoi",
+      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/New/ngay-tot-to-chuc-dam-cuoi.jpg?raw=true",
+      des: "Ngày tốt tổ chức đám cưới",
       title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
     },
     {
-      id: "ki-truoc-online-bung-no-uu-dai",
-      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
-      des: "Kí trước online - Bùng nổ ưu đãi",
-      title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
-    },
-    {
-      id: "ki-truoc-online-bung-no-uu-dai",
-      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/wedding/Ba%20v%C3%AC/bavi.jpg?raw=true",
-      des: "Kí trước online - Bùng nổ ưu đãi",
+      id: "thiet-ke-thiep-cuoi",
+      img: "https://github.com/tienkhoa96/tienkhoa96.github.io/blob/master/Figma/Img/New/thiet-ke-thiep-cuoi.jpg?raw=true",
+      des: "Thiết kế thiếp cưới",
       title: "ELLY STUDIO thông báo ưu đãi dành riêng cho khách hàng đăng kí online trước [...]"
     },
   ]

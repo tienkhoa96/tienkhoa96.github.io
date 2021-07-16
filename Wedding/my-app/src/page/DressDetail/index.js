@@ -106,7 +106,7 @@ const DressDetail = () => {
     ]
     },
     {
-      cat: "vay-cuoi-duoi-dai",
+      cat: "vay-cuoi-duoi-dai2",
       des: "Váy cưới đuôi dài",
       title: "Mang màu sắc truyền thống với những chất liệu buông rủ mềm mại, những mẫu váy cưới trắng đuôi dài chưa bao giờ hết hot và vẫn là sự lựa chọn của rất nhiều nàng dâu trong ngày cưới.  ",
       dataImg: [

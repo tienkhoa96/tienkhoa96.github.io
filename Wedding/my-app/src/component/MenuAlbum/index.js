@@ -19,13 +19,11 @@ const useStyles = makeStyles((theme) => ({
         margin: '0 auto'
     },
     section: {
-        backgroundImage:"url(\"https://pdp.edu.vn/wp-content/uploads/2021/06/hinh-anh-bau-troi-dep-sac-net-nhat.jpg\")",
-        padding:"50px 0",
-        fontSize: "18px",
+        padding:"20px 0",
+        fontSize: "24px",
         textTransform: "uppercase",
         textAlign: "center",
         fontWeight: "bold",
-        margin: "20px 0"
     },
     boxItem: {
         width: "24%",
@@ -86,7 +84,7 @@ const MenuAlbum = ({dataList}) => {
     }
 
 
-    return ( <><div className={classes.section}>Album</div>
+    return ( <><div className={classes.section}>Album ảnh cưới</div>
                 <Grid container spacing={3} className={classes.wrapMenuDetail}>
                     {
                         renderMenuAlbum()

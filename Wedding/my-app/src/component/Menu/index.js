@@ -65,25 +65,21 @@ const useStyles = makeStyles((theme) => ({
         display: 'none',
     },
     menuBar : {
-    
         display: "grid",
-        margin :'20px',
         '& a' : {
             color :'black',
             fontSize: "14px", 
             fontWeight: 500,
-             marginLeft: "10px" ,
+            margin: "0 10px" ,
+            padding: "20px 0",
+            borderBottom: "1px solid #00000059"
         },
-       
-
         padding : 'inherit',
-
-       
    },
    paper : {
        width : '50%',
+       background: "#f3d9c2",
     //    height :'90vw',
-       top :"50px"
    },
   }));
 
@@ -121,7 +117,7 @@ const Menu = ({dataList, isShowBar, closeBar, activeMenu}) => {
                     renderMenu()
                 }
             </ul>
-            <Drawer classes={{paper:classes.paper}} anchor={'right'} open={isShowBar} onClose={()=> closeBar()}>
+            <Drawer classes={{paper:classes.paper}} anchor={'left'} open={isShowBar} onClose={()=> closeBar()}>
 
             <ul className={classes.menuBar}>
                 {
