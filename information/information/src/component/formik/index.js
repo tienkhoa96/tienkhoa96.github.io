@@ -62,12 +62,12 @@ const SignupForm = () => {
     };
     return (
         <Formik
-            initialValues={{ firstName: '', lastName: '', email: '', sex: "", favourite: false }}
+            initialValues={{ Name: '', Date: '', email: '', sex: "", favourite: false }}
             validationSchema={Yup.object({
-                firstName: Yup.string()
+                Name: Yup.string()
                     .max(15, 'Must be 15 characters or less')
                     .required('Required'),
-                lastName: Yup.string()
+                Date: Yup.string()
                     .max(20, 'Must be 20 characters or less')
                     .required('Required'),
                 email: Yup.string().email('Invalid email address').required('Required'),
@@ -92,41 +92,41 @@ const SignupForm = () => {
         >
 
             {
-                ({ errors, handleBlur, values, setFieldValue }) => {
+                ({ errors, handleBlur, values, setFieldValue, touched }) => {
                     return (
                         <Form>
 
                             <TextField
-                                name="firstName"
-                                label="firstName"
+                                name="Name"
+                                label="Name"
                                 type="text"
-                                error={errors.firstName}
-                                helperText={errors.firstName}
-                                // value={values.firstName}
+                                error={touched.Name && errors.Name}
+                                helperText={touched.Name && errors.Name}
+                                // value={values.Name}
                                 inputProps={{
                                     onBlur: handleBlur
                                 }}
                                 onChange={(e) => {
-                                    values.firstName = e.target.value
+                                    values.Name = e.target.value
                                 }}
                             />
                             {/* 
-                            <button onClick={()=> setFieldValue("firstName", "khoa")}>khoa</button>
-                            <button onClick={()=> setFieldValue("firstName", "khanh")}>khanh</button>
-                            <button onClick={()=> setFieldValue("firstName", "lan")}>lan</button> */}
+                            <button onClick={()=> setFieldValue("Name", "khoa")}>khoa</button>
+                            <button onClick={()=> setFieldValue("Name", "khanh")}>khanh</button>
+                            <button onClick={()=> setFieldValue("Name", "lan")}>lan</button> */}
 
                             <TextField
-                                name="lastName"
-                                label="lastName"
-                                type="text"
-                                error={errors.lastName}
-                                helperText={errors.lastName}
-                                // value={values.firstName}
+                                name="Date"
+                                label="Date"
+                                type="date"
+                                error={touched.Date && errors.Date}
+                                helperText={touched.Date && errors.Date}
+                                // value={values.Name}
                                 inputProps={{
                                     onBlur: handleBlur
                                 }}
                                 onChange={(e) => {
-                                    values.lastName = e.target.value
+                                    values.Date = e.target.value
                                 }}
                             />
 
@@ -134,9 +134,9 @@ const SignupForm = () => {
                                 name="email"
                                 label="Email Address"
                                 type="email"
-                                error={errors.email}
-                                helperText={errors.email}
-                                // value={values.firstName}
+                                error={touched.email && errors.email}
+                                helperText={touched.email && errors.email}
+                                // value={values.Name}
                                 inputProps={{
                                     onBlur: handleBlur
                                 }}
@@ -145,9 +145,9 @@ const SignupForm = () => {
                                 }}
                             />
 
-                            {/* <label htmlFor="lastName">Last Name</label>
-                            <Field name="lastName" type="text" />
-                            <ErrorMessage name="lastName" /> */}
+                            {/* <label htmlFor="Date">Last Name</label>
+                            <Field name="Date" type="text" />
+                            <ErrorMessage name="Date" /> */}
 
                             {/* <label htmlFor="email">Email Address</label>
                             <Field name="email" type="email" />
