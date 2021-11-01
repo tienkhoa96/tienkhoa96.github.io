@@ -61,19 +61,19 @@ $(function () {
             let title = $(".todo-item-title").text()
             console.log(title)
 
-            // let data = {  }
-            // $.ajax({
-            //     type: "PUT",
-            //     url: `http://localhost:3000/todoList/${id}`,
-            //     data: data,
-            //     success: function (result) {
-            //         let key = $("#search-name").val();
-            //         reUpdateDom(`name_like=${key}`);
-            //         $(`#updateId${id}`).modal("hide");
-            //         $('.modal-backdrop').remove();
-            //     },
-            //     dataType: 'json'
-            // });
+            let data = {  }
+            $.ajax({
+                type: "PUT",
+                url: `http://localhost:3000/todoList/${id}`,
+                data: data,
+                success: function (result) {
+                    let key = $("#search-name").val();
+                    reUpdateDom(`name_like=${key}`);
+                    $(`#updateId${id}`).modal("hide");
+                    $('.modal-backdrop').remove();
+                },
+                dataType: 'json'
+            });
         });
     }
 
